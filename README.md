@@ -14,3 +14,5 @@ This repository contains my **daily hands-on DevOps learning journey**.
 
 📌 **Commit frequency:** Daily (2–3 commits/day)  
 📌 **Goal:** Become job-ready DevOps / Cloud Engineer
+## Progress Log
+- Day 1: Python basics and environment setup
