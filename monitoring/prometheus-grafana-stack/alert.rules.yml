@@ -1,0 +1,11 @@
+groups:
+- name: node-api-alerts
+  rules:
+  - alert: NodeAPIDown
+    expr: up{job="node-api"} == 0
+    for: 10s
+    labels:
+      severity: critical
+    annotations:
+      summary: "Node API is DOWN"
+      description: "Node API has been unreachable for 10 seconds"
